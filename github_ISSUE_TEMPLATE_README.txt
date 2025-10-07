@@ -1,0 +1,1 @@
+This directory contains issue templates for GitHub Issues.

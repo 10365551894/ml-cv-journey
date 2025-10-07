@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+.env
+.envrc
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Data / Models / Outputs
+data/
+datasets/
+outputs/
+models/
+checkpoints/
+wandb/
+
+# Logs
+logs/
