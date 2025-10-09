@@ -52,3 +52,5 @@
 双方括号：[['行标签1'，'行标签2']]
 cars.loc[['MOR','RU'],['drives_right','country']]
 冒号用法：print(cars.loc[:,['drives_right']])
+print(cars.loc[:,1:2])
+print(cars.loc[:,['drives_right':'ABC']])
