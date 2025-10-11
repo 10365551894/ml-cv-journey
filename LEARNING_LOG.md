@@ -54,3 +54,21 @@ cars.loc[['MOR','RU'],['drives_right','country']]
 冒号用法：print(cars.loc[:,['drives_right']])
 print(cars.loc[:,1:2])
 print(cars.loc[:,['drives_right':'ABC']])
+
+## 模板（复制使用）
+```
+日期：10.11（周X）
+
+学了啥：
+- 平台：datacamp
+- 笔记关键词：逻辑比较，逻辑判断
+生疏点：
+- 第一点：逻辑在pandas里的子集操作
+- 第二点：for循环的for var in seq:expression
+- 第三点(列表)：for index ,var in enumerate(seq):
+- 第四点（dataframe,iterrows是按行循环的意思）：for lab,row in seq.iterrows():
+- 第五点（新添列）：cars.loc[lab,"COUNTRY"]=row["country"].upper()
+……
+反思：
+- 第一点：逻辑在pandas里的子集操作,先把对应区域给到a,然后a做逻辑运算后，值给到b，然后c=data[b]
+- 第二点：逻辑在pandas里的子集操作,c[c['123']<2]
