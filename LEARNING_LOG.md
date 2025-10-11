@@ -68,7 +68,7 @@ print(cars.loc[:,['drives_right':'ABC']])
 - 第三点(列表)：for index ,var in enumerate(seq):
 - 第四点（dataframe,iterrows是按行循环的意思）：for lab,row in seq.iterrows():
 - 第五点（新添列）：cars.loc[lab,"COUNTRY"]=row["country"].upper()
-……
+
 反思：
 - 第一点：逻辑在pandas里的子集操作,先把对应区域给到a,然后a做逻辑运算后，值给到b，然后c=data[b]
 - 第二点：逻辑在pandas里的子集操作,c[c['123']<2]
